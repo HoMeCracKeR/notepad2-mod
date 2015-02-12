@@ -274,6 +274,8 @@ typedef sptr_t (*SciFnDirect)(sptr_t ptr, unsigned int iMessage, uptr_t wParam, 
 #define INDIC_DOTBOX 12
 #define INDIC_SQUIGGLEPIXMAP 13
 #define INDIC_COMPOSITIONTHICK 14
+#define INDIC_COMPOSITIONTHIN 15
+#define INDIC_FULLBOX 16
 #define INDIC_IME 32
 #define INDIC_IME_MAX 35
 #define INDIC_MAX 35
@@ -288,6 +290,10 @@ typedef sptr_t (*SciFnDirect)(sptr_t ptr, unsigned int iMessage, uptr_t wParam, 
 #define SCI_INDICGETFORE 2083
 #define SCI_INDICSETUNDER 2510
 #define SCI_INDICGETUNDER 2511
+#define SCI_INDICSETHOVERSTYLE 2680
+#define SCI_INDICGETHOVERSTYLE 2681
+#define SCI_INDICSETHOVERFORE 2682
+#define SCI_INDICGETHOVERFORE 2683
 #define SCI_SETWHITESPACEFORE 2084
 #define SCI_SETWHITESPACEBACK 2085
 #define SCI_SETWHITESPACESIZE 2086
